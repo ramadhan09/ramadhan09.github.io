@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    background-color: white;
+    /* border: solid black; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    color: #F966FC !important ;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    /* border: solid black; */
+    color: #3B3B3B !important;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #F966FC !important
+}
+
+.container .row .col {
+    margin-top: 50px;
+    /* border: solid black; */
+    
+}
+
+
+.col h1,h2 {
+    line-height: 50px;
+    margin-top: 12px;
+}
+.col h1 {
+    color: #F966FC;
+    font-size: 60px;
+}
+
+.col h2 {
+    font-size: 60px;
+    color: rgb(54, 54, 54);
+}
+
+.col p {
+    line-height: 35px;
+    font-size: 26px;
+}
+
+.container .row .col img {
+    width: 100%;
+    
+    
+}
+
+.tombol {
+    background-color:  #F966FC;
+    /* width: 150px; */
+    font-size: 25px;
+    color: white;
+
+}
+
+.tombol:hover {
+    background-color: #e934ec;
+    color: white;
+}
+
+
+/* konten 364 224 */
+
+.container .konten {
+    margin-top: 20px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+
+.nama {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(54, 54, 54);
+    /* text-transform: uppercase; */
+}
+
+.konten h3 {
+    text-align: center;
+    color: #e934ec;
+    margin-bottom: 10px;
+}
+
+
+
+.card p {
+    color: rgb(54, 54, 54);;
+}
+
+.card img {
+    margin: 0px auto;
+    width: 300px;
+}
+
+
+
+
+/* carousel */
+
+.testimony {
+    text-align: center;
+    margin-top: 100px;
+}
+.carousel {
+    margin-top: 10px;
+}
+.carousel img {
+    margin: 0px auto;
+    border: solid #e934ec;
+    border-radius: 100%;
+    width: 300px;
+    filter: grayscale();
+}
+
+.carousel p {
+    margin-top: 20px;
+}
+
+
+.carousel img:hover {
+    filter: grayscale(0%);
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+}
+
+h6 {
+    margin-top: 20px;
+}
+
+
+
+
+/* Tab */
+@media (max-width: 991px) {
+    .col img {
+        display: none;
+        
+    } 
+    .col p {
+        line-height: 35px;
+        font-size: 20px;
+    }
+    .col {
+        margin-left: 10px;
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .nav-link{
+        margin-left: 10px;
+    }
+    .card img {
+        margin: 0px auto;
+        width: 100%;
+    }
+}
+
